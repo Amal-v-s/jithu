@@ -1,0 +1,47 @@
+.services{
+  
+    display: flex;
+  
+    justify-content: space-evenly;
+}
+*{
+    font-family: cursive;
+    margin: 0;
+}
+#home-section{
+    background: #fff1ce;
+
+}
+.quote{
+    border-radius: 2em;
+    width: 40em;
+}
+.dp{
+    height: 40em;
+}
+.header{
+    font-family: monospace;
+    font-weight: bold;
+    background: #bfb7a3;
+   
+}
+.card-title{
+    font-size: x-large;
+}
+.card-body{
+    background: rgb(158, 149, 149);
+}
+.footer{
+    background: #bfb7a3;
+    padding: 1.5em;
+}
+.footer i{
+    
+    padding: 1.1em;
+}
+.works-img img{
+    padding: 2em;
+    height: 30em;
+    width: 30em;
+
+}
