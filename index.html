@@ -34,7 +34,7 @@
                             <a class="nav-link active text-white" aria-current="page" href="#experience-section"><h3 style="color: #edcd72;">Experience</h3></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#major-section"><h3 style="color: #edcd72;">Major Works</h3></a>
+                            <a class="nav-link active text-white" aria-current="page" href="#major-section"><h3 style="color: #edcd72;">Concluded Works</h3></a>
                           </li>
                           <li class="nav-item ">
                             <a class="nav-link active text-white " aria-current="page" href="#contact-section"><h3 style="color: #edcd72;">ContactMe</h3></a>
@@ -49,9 +49,9 @@
     <section id="home-section" style="padding-top: 10em; padding-bottom: 2em;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 " style="align-items: center;">
+                <div id="prob-pic" class="col-lg-6 col-md-12 col-sm-12 " style="align-items: center;">
                     
-                    <img src="dp.webp" class="dp  img-fluid rounded-circle " style="margin-left: -5em;" alt="">
+                    <img class="dp  img-fluid rounded-circle " src="dp.webp"  style="margin-left: -5em;" alt="">
                 </div>
                 
                 <div class="col-md-6 col-sm-12 text-center ">
@@ -165,7 +165,7 @@
 <section style="background-color: rgb(197, 186, 186) ; " id="major-section">
   <div class="row text-center">
     <div>
-      <h1>Major Works</h1>
+      <h1>Concluded Works</h1>
     </div>
     <h2 class="text-start p-2 ps-5">Exterior</h2>
     <div class="works-img">
@@ -184,22 +184,22 @@
 <section style="padding-top:2em; padding: 2em; background: #b9cded;" id="contact-section">
     <h1 class="text-center" style="color:black;">Contact Me</h1>
     <div class="row">
-    <form>
+    <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbwtbgArNvrPkXzapxp7-TFfbZMIn4J0M4Hc6pb1lwepq8sOZowhiVeFEP9svDrTEMF-kw/exec">
         <div class="form-row">
             <div class="form-group ">
                 <label for="text" ><h5>Name</h5></label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Enter Your Name">
+                <input type="text" name="name" class="form-control" id="fname" placeholder="Enter Your Name">
               </div>
             <div class="col-md-6 ">
           <div class="form-group ">
             <label for="inputEmail4" ><h5>Email</h5></label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            <input type="email" name="email" class="form-control" id="lname" placeholder="Email">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group col-md-6" >
             <label for="inputPassword4"><h5>Phone Number</h5></label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Phone Number">
+            <input type="password" name="number" class="form-control" id="inputPassword4" placeholder="Phone Number">
           </div>
         </div>
         </div>
@@ -211,7 +211,7 @@
    
     <div class="form-group">
         <label for="exampleFormControlTextarea1" ><h5>Message</h5></label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Leave Your Messages Here"></textarea>
+        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5" placeholder="Leave Your Messages Here"></textarea>
     </div>
     
     <div class="form-group text-center pt-3">
