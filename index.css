@@ -8,10 +8,10 @@
     font-family: cursive;
     margin: 0;
 }
-#home-section{
+/* #home-section{
     background: #fff1ce;
 
-}
+} */
 .quote{
     border-radius: 2em;
     width: 40em;
@@ -44,4 +44,17 @@
     height: 30em;
     width: 30em;
 
+}
+#home-section{
+    background: #fff1ce;
+
+}
+
+@media only screen and (max-width: 700px){
+    #prob-pic{
+        align-items: center;
+        margin-left: 5em;
+    }
+ 
+    
 }
